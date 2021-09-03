@@ -1,4 +1,39 @@
 ---
+What is this?
+---
+
+This is my attempt to flex some of my coding muscles after a long time of not coding. Covid-19 hit everyone 
+hard but for me it made me drop school all together, during that time I was able to find a new passion 
+for biking! But in the process I lost some progress I had been making in the field of computer science. 
+My hope is the in doing these leet code problems semi-regularly I will be able to regain the skills I had
+and find some new ones. 
+
+
+<Header> How this is structured </Header>
+I want to make this a kind of study guide for all my java needs. In order to do so I will be leaving in my 
+initial attempts at the problem - the attempt that I didnt look at any sort of clues or outside resources - 
+and then the solution or my final attempt that works. I also want to keep a record of my thought process while
+I am completing these problems.
+To keep my thoughts organized I have to new TODO comments:
+
+~~~
+Rubber Duckie & Solution Reflection
+~~~
+**Rubber Duckie:** 
+Rubber Duckie will be where I think through the problem. Everything I write in this section might not make it in to my 
+actual code, but It will hopefully help illustrate my thought process for me in the future.
+
+**Solution Reflection:**
+Solution Reflection is just that, here I will be going through the solution as I understand it. I intend to annotate the
+code as well as wright the reflection to further understand the code if it is from an outside source, and to go more 
+into depth if it is my own personal code. 
+
+
+**finally** I would like this to be an exercise in not only coding but also an exercise in the documentation of my code,
+and in working with github. 
+
+
+---
 P1 - Remove duplicates
 ---
 ---

@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Solution {
 
     /**
-     * RUBBER DUCKY
+     * RUBBER DUCKIE
      * So we know that the first value nums[0] is going to be moved to
      * nums[k-1 + nums[0]] and that every other element in the array is going to be
      * moved k-1 + nums[n] (n being the position of the element in the array)
@@ -71,6 +71,7 @@ public class Solution {
     }
 
     /**
+     * SOLUTION REFLECTION
      * So my answer in rotate works, the runtime is just the issue
      * my solution requires me to go through the entire array step by step
      * and while the space complexity is technically O(1) the time complexity
