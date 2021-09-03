@@ -34,12 +34,14 @@ public class Solution {
      *           = {2,3,1}
      *           = {1,2,3}
      *
-     *  did i miss understand?
+     *  did i misunderstand?
      *  = {1,2,3,4,5,6,7} k = 4
      *  = {7,1,2,3,4,5,6}
      *  = {6,7,1,2,3,4,5}
      *  = {5,6,7,1,2,3,4}
      *  = {4,5,6,7,1,2,3}
+     *
+     *  Might only work if the k value is greater then the len of the array?
      *
      *  So if k > 2 and k/2 = 0 then return the current array
      *  if k == 2 then hold nums[0], nums[k-nums.length + 1]
@@ -87,6 +89,7 @@ public class Solution {
      *     = {5,6,7,4,3,2,1}
      *     = {5,6,7,1,2,3,4}
      *
+     * Who knew reversing a few times would rotate an array? I guess in hindsight it makes sense.
      * this is just one of those things that you have to know and understand
      * before an interview. The algorithm's implementation will require a helper
      * method - Rotate() - that will take the array,the start of the rotation and the end
@@ -97,7 +100,7 @@ public class Solution {
      *      start = end
      *      end = temp
      *      start++
-     *      end++
+     *      end--
      *  }
      *
      *
@@ -107,10 +110,10 @@ public class Solution {
      *
      */
     public static void rotateAnswer(int[] nums, int k){
-        k %= nums.length;
+        k %= nums.length; // splitting the array with k being the first k num of elements
         int n = nums.length - 1;
         reverse(nums, 0, n); //reversing the whole thing
-        reverse(nums, 0, k-1); //reversing the first half
+        reverse(nums, 0, k-1); //reversing the first half (excluding k) 
         reverse(nums, k, n); //reversing the remainder including K
 
         System.out.println(Arrays.toString(nums));

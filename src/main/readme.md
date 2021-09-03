@@ -36,7 +36,7 @@ and in working with github.
 ---
 P1 - Remove duplicates
 ---
----
+
 Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element
 appears only once. The relative order of the elements should be kept the same.
 
@@ -93,7 +93,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 ---
 P2 - Rotate
 ---
----
+
 Given an array, rotate the array to the right by k steps, where k is non-negative.
 
 ~~~
