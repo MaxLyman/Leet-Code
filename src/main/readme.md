@@ -21,7 +21,9 @@ Rubber Duckie & Solution Reflection
 ~~~
 **Rubber Duckie:** 
 Rubber Duckie will be where I think through the problem. Everything I write in this section might not make it in to my 
-actual code, but It will hopefully help illustrate my thought process for me in the future.
+actual code, but It will hopefully help illustrate my thought process for me in the future. (I didn't do it on my method
+for p1 oops!)
+
 
 **Solution Reflection:**
 Solution Reflection is just that, here I will be going through the solution as I understand it. I intend to annotate the
