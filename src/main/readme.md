@@ -14,7 +14,7 @@ I want to make this a kind of study guide for all my java needs. In order to do 
 initial attempts at the problem - the attempt that I didnt look at any sort of clues or outside resources - 
 and then the solution or my final attempt that works. I also want to keep a record of my thought process while
 I am completing these problems.
-To keep my thoughts organized I have to new TODO comments:
+To keep my thoughts organized I have two comment headers:
 
 ~~~
 Rubber Duckie & Solution Reflection

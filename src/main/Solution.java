@@ -167,7 +167,7 @@ public class Solution {
      * @param nums the sorted array with duplicates.
      * @return the index of the array that has no duplicates
      */
-    public static int removeDuplicates(int[] nums) {
+    public static int removeDuplicatesAnswer(int[] nums) {
         int index = 1; //representing where the new number should be place if it is unique
         for (int i = 0; i < nums.length - 1; i++) {
             if (nums[i] != nums[i + 1]) {  //if current index is not equal to the next index
@@ -182,7 +182,7 @@ public class Solution {
 
     public static void main(String[] args) {
         int[] testArr1 = {0, 0, 1, 1, 1, 2, 2, 3};
-        removeDuplicates(testArr1);
+        removeDuplicatesAnswer(testArr1);
 
         int[] testArr = {1, 2, 3, 4, 5, 6, 7};
         rotate(testArr, 3);  //for smaller examples the runtime is the same but for larger examples it is much slower.
