@@ -132,3 +132,34 @@ rotate 2 steps to the right: [3,99,-1,-100]
 
 Try to come up with as many solutions as you can. There are at least three different ways to solve this problem. Could
 you do it in-place with O(1) extra space?
+
+---
+P3 - Contains Duplicates
+---
+
+Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+
+~~~
+Example 1:
+
+Input: nums = [1,2,3,1]
+Output: true
+~~~
+~~~
+Example 2:
+
+Input: nums = [1,2,3,4]
+Output: false
+~~~
+~~~
+Example 3:
+
+Input: nums = [1,1,1,3,3,4,3,2,4,2]
+Output: true
+~~~
+
+Constraints:
+
+1 <= nums.length <= 105
+-109 <= nums[i] <= 109
